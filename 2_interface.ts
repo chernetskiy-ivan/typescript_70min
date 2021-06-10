@@ -23,3 +23,17 @@ rect2.color = 'black'
 //указываю к какому типу будет относиться объект
 const rect3 = {} as Rect
 const rect4 = <Rect>{}
+
+// =========
+
+interface RectWithArea extends Rect{
+    getArea: () => number
+}
+
+const rect5: RectWithArea = {
+    id: '123',
+    size: {width: 22, height: 34},
+    getArea(): number {
+        return this.size.width * this.size.height
+    }
+}
