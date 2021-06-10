@@ -25,3 +25,14 @@ function sayMyName(name: string): void {
     console.log(name)
 }
 sayMyName('Хайзенберг')
+
+//Never
+function throwError(message: string): never {
+    throw new Error(message)
+}
+
+function infinite(): never {
+    while(true) {
+
+    }
+}
