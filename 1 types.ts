@@ -11,3 +11,6 @@ const numberArray: number[] = [1, 1, 2, 3, 5, 8, 13]
 const numberArray2: Array<number> = [1, 1, 2, 3, 5, 8, 13]
 
 const words: string[] = ['hello', 'typescript']
+
+//Tuple
+const contact: [string, number] = ['Ivan', 1234567]
