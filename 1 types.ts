@@ -14,3 +14,8 @@ const words: string[] = ['hello', 'typescript']
 
 //Tuple
 const contact: [string, number] = ['Ivan', 1234567]
+
+// Any
+let variable: any = 42
+variable = 'New string'
+variable = []
