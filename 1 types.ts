@@ -19,3 +19,9 @@ const contact: [string, number] = ['Ivan', 1234567]
 let variable: any = 42
 variable = 'New string'
 variable = []
+
+// ====
+function sayMyName(name: string): void {
+    console.log(name)
+}
+sayMyName('Хайзенберг')
